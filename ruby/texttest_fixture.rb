@@ -1,5 +1,3 @@
-#!/usr/bin/ruby -w
-
 require File.join(File.dirname(__FILE__), 'gilded_rose')
 
 puts "OMGHAI!"
@@ -31,3 +29,4 @@ gilded_rose = GildedRose.new items
   puts ""
   gilded_rose.update_quality
 end
+
