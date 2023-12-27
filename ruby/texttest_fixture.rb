@@ -13,7 +13,6 @@ items = [
   # This Conjured item does not work properly yet
   Item.new(name="Conjured Mana Cake", sell_in=3, quality=6), # <-- :O
 ]
-
 days = 2
 if ARGV.size > 0
   days = ARGV[0].to_i + 1
@@ -29,4 +28,3 @@ gilded_rose = GildedRose.new items
   puts ""
   gilded_rose.update_quality
 end
-
